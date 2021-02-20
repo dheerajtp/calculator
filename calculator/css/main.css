@@ -1,0 +1,37 @@
+.body{
+    margin: 0px;
+    background: #f6f5f5;
+}
+.main-div{
+    margin-left: 510px;
+}
+.cal-main-div{
+    background: #276678;
+    width: 300px;
+    height:430px;
+}
+.main-head{
+    padding-left: 41px;
+    color:#121013;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#input-display{
+    width: 255px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.btn-row{
+    margin: 10px;
+    float: left;
+}
+.btn-dil-cls{
+    background: #1687a7;
+    border: 0px;
+    width: 55px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:#d3e0ea;
+}

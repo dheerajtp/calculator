@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <script src="../js/main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main-div">
+        <h1 class="main-head">CALCULATOR</h1>
+        <div class="cal-main-div">
+            <div id="display">
+                <input type="text" id="input-display" disabled>
+            </div>
+            <div class="btn-cls">
+                <div class="btn-row">
+                    <button onclick="clrInputScreen()" class="btn-dil-cls">c</button>
+                </div>
+                <div class="btn-row">
+                    <button onclick="btnRe(7)" class="btn-dil-cls">7</button>
+                    <button onclick="btnRe(8)" class="btn-dil-cls">8</button>
+                    <button onclick="btnRe(9)" class="btn-dil-cls">9</button>
+                    <button onclick="btnRe('+')" class="btn-dil-cls">+</button>
+                </div>
+                <div class="btn-row">
+                    <button onclick="btnRe(4)" class="btn-dil-cls">4</button>
+                    <button onclick="btnRe(5)" class="btn-dil-cls">5</button>
+                    <button onclick="btnRe(6)" class="btn-dil-cls">6</button>
+                    <button onclick="btnRe('*')" class="btn-dil-cls">x</button>
+                </div>
+                <div class="btn-row">
+                    <button onclick="btnRe(1)" class="btn-dil-cls">1</button>
+                    <button onclick="btnRe(2)" class="btn-dil-cls">2</button>
+                    <button onclick="btnRe(3)" class="btn-dil-cls">3</button>
+                    <button onclick="btnRe('')" class="btn-dil-cls">/</button>
+                </div>
+                <div class="btn-row">
+                    <button onclick="btnRe('.')" class="btn-dil-cls">.</button>
+                    <button onclick="btnRe(0)" class="btn-dil-cls">0</button>
+                    <button onclick="btnRe('-')" class="btn-dil-cls">-</button>
+                    <button onclick="btnRe('=')" class="btn-dil-cls">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
