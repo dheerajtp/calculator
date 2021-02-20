@@ -2,6 +2,6 @@
 It Is A Simple Calculator Using HTML,CSS And JavaScript
 
 
-Screen Shot
+![Screen Shot ](https://ibb.co/KrLc648)
 
-<img src="https://ibb.co/KrLc648" style=""width:100%;"/>  
+
